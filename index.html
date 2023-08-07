@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <nav class="header-area">
+        <ul class="menu">
+            <li><a href="#" class="raise">Home</a></li>
+            <li><a href="#services" class="raise">Services</a></li>
+            <li><a href="#" class="gradient">HASNAA EDDARIF</a></li>
+            <li><a href="#" class="raise">About</a></li>
+            <li><a href="#contact" class="raise">Contact</a></li>
+
+        </ul>
+    </nav>
+    <div class="banner">
+
+        <img src="/src/4K-Vaporwave-HD-Wallpaper.jpg" alt="">
+        <img src="/src/4K-Vaporwave-HD-Wallpaper.jpg" alt="">
+        <img src="/src/4K-Vaporwave-HD-Wallpaper.jpg" alt="">
+        <img src="/src/4K-Vaporwave-HD-Wallpaper.jpg" alt="">
+
+    </div>
+    <div class="smoke">
+        <h1>Web and AI Developer <br><span>crafting intelligent web experiences.</span></h1><br><br>
+        <button class="btn btn-lg" style="background-color: transparent; ;"><a href="#services"></a><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><style>svg{fill:#943d8d}
+            
+        </style><path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg></button>
+    </div>
+    <div id="#services">
+
+    
+    <h2 >Services <br>
+        <span>Outstanding features for your website</span>
+
+    </h2>
+
+    <div class="carousel">
+        <div class="carousel-item">
+            <div class="card">
+                <div class="img-area"><img src="/src/aicontent2.jpg" alt=""></div>
+                <h4> Automated Content Generation</h4>
+                <p>AI-powered algorithms can automatically generate content, such as product descriptions, blog
+                    posts,
+                    or news articles.</p>
+                <button class="btn" style="background-color: blueviolet;">Learn more</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card">
+                <div class="img-area"><img src="/src/chatbot.jpeg" style="width: 70%;"></div>
+                <h4> AI-powered chatbots</h4>
+                <p>Chatbots provide automated customer support, answer frequently asked questions, and engage in a
+                    conversational manner.</p>
+                <button class="btn" style="background-color: blueviolet;">Learn more</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card">
+                <div class="img-area"><img src="/src/smartform.jpg" style="width: 45%;"></div>
+                <h4> Smart Forms</h4>
+                <p>AI enhance form validation and auto-completion in HTML forms, making the user experience more
+                    efficient and reducing errors.</p>
+                <button class="btn" style="background-color: blueviolet;">Learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                padding: 200
+            });
+            autoplay();
+            function autoplay() {
+                $('.carousel').carousel('next');
+                setTimeout(autoplay, 4500);
+            }
+        });
+    </script>
+</div>
+<section>
+    <div class="projects">
+        <h2>Previous projects</h2><br><br><br>
+        <h1></h1>
+        <ul class="grid-wrapper">
+    
+            <li class="border"><img src="src/catbrain.png" style="width: 100%;"> <h5>Cat brain segmentation app</h5></li>
+            
+            <li class="border"><img src="src/imagerecog.jpeg" alt=""><h5>Image recognition web app</h5></li>
+            
+            <li class="border"><img src="src/tile.jpg" alt=""><h5> Website with chatbot</h5></li>
+            
+            <li class="border"><img src="src/breast.png" alt=""><h5>Breast cancer detection and prediction app</h5></li>
+
+        </ul>
+    </div>
+
+     
+    
+    <br><br>
+<div class="Contact" id="contact">
+    <h2>Contact</h2><br><br><br>
+    <div class="border">
+        <div class="wrapper" >
+            <div class="title">Chat with me!</div>
+            <div class="box">
+                <div class="item">
+                    <div class="icon">
+
+
+                    </div>
+                    <div class="msg">
+                        <p>Hello everyone, How are you?</p>
+                    </div>
+                </div>
+                <br clear="both">
+                <div class="item right">
+                    <div class="msg">
+                        <p>Nice</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="typing-area">
+                <div class="input-field">
+                    <input type="text" placeholder="Type your message" required>
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <footer>
+        <div class="social">
+            <ul>
+                <li class="fa fa-facebook grow"></li>
+                <li class="fa fa-twitter grow"></li>
+                <li class="fa fa-google grow"></li>
+                <li class="fa fa-github grow"></li>
+                <li class="fa fa-codepen grow"></li>
+            </ul>
+        </div>
+    </footer>
+</section>
+
+</body>
+
+</html>
